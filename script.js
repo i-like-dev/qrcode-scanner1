@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (result) {
             const url = result.getText();
             if (url.startsWith("https://go.walking-cat.com")) {
+                alert(授權成功！)
                 window.location.href = url;
             } else {
                 messageElement.textContent = "無效的網址，僅允許https://go.walking-cat.com 前綴的網址";
