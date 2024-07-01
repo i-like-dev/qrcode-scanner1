@@ -1,0 +1,21 @@
+{
+    "name": "科技感 QRCode 掃描器",
+    "short_name": "QRCode 掃描器",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#121212",
+    "theme_color": "#00ff00",
+    "description": "一個科技感的QRCode掃描器應用，只允許特定前綴的網址",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
